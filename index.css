@@ -1,0 +1,228 @@
+#main-heading{
+	font-family: "Dr Sugiyama",cursive;
+	color: white;
+	font-size: 62px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin: 0;
+}
+
+#landing-section{
+	background-color: rgb(78,172,221);
+	width: 100%;
+	height: 100vh;
+	padding-left: 12%;
+	padding-right: 12%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#topbar{
+	display: flex;
+	justify-content: space-between; 
+}
+
+#top-menu-list{
+	list-style: none;
+	display: block;
+	color: #fff;
+	padding: 10px;	
+}
+
+.menu-item{
+	display: inline-block;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 7px;
+}
+
+#landing-section-desc{
+	font-family: 'lato', sans-serif;
+	color: rgb(255,255,255);
+	font-size: 30px;
+	font-weight: 300;
+}
+
+
+.btn-dark{
+	background-color: transparent;
+	color: #fff;
+	border : 1px solid #fff;
+	padding: 12px 24px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 32px;
+	border-image: initial;
+	border-radius: 4px;
+}
+
+.btn-dark:hover{
+	background-color: white;
+	color: black;
+}
+
+#landing-section-text{
+	text-align: end;
+	padding-top: 20px;
+	padding-top: 12%;
+}
+
+#logo{
+	height: 120px;
+	width: 120px;
+	padding-top: 0;
+}
+
+#second-section{
+	width: 100%;
+	height: 90vh;
+	background-color: rgb(244,244,244);
+	box-sizing: border-box;
+	display: block;
+	padding: 12%;
+	overflow: hidden;
+}
+
+.section-heading{
+	font-size: 42px;
+	font-weight: 300;
+	color: rgb(84,84,84);
+	font-family: Lato, sans-serif;
+	margin: 0px;
+}
+
+h2{
+	display: block;
+	font-size: 1.5em;
+}
+
+#second-desc{
+	line-height: 1.42857;
+	color: rgb(126,126,126);
+	font-size: 16px;
+	font-family: Lato, sans-serif;
+	margin-top: 24px;
+}
+
+p{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start : 0px;
+	margin-inline-end : 0px;
+}
+
+#second-section-text{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#second-section-quote{
+	font-size: 16.5px;
+	color: rgb(126,126,126);
+	font-style: italic;
+	line-height: 1.42857;
+	border-left: 8px solid rgb(78,172,221);
+	margin: 0px 0px 20px;
+	padding: 0px 20px;
+}
+
+#second-span{
+	text-align: end;
+}
+
+#btn-hello{
+	background-color: transparent;
+	color: rgb(78,172,221);
+	border : 1px solid rgb(78,172,221);
+	padding: 12px 24px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 32px;
+	border-image: initial;
+	border-radius: 4px;
+}
+
+#btn-hello:hover{
+	background-color: rgb(78,172,221);
+	color: #fff;
+}
+
+#second-section-image{
+	display: inline-block;
+	width: 40%;
+	text-align: end;
+}
+
+#third-section{
+	width: 100%;
+	height: 90vh;
+	padding: 12%;
+	box-sizing: border-box;
+}
+
+#third-section-image{
+	display: inline-block;
+	width: 50%;
+	position: relative;
+}
+
+#third-section-text{
+	display:inline-block;
+	width: 48%;
+}
+
+#devices-img{
+	position: absolute;
+	top: -100px;
+	left: -100px;
+}
+
+#last-section{
+	background-color: rgb(19,196,175);
+	text-align: center;
+	padding: 100px;
+	box-sizing: border-box;
+}
+
+#last-section-heading{
+	font-size: 42px;
+	font-weight: 300;
+	color: rgb(255,255,255);
+	font-family: Lato, sans-serif;
+	margin: 0px;
+}
+
+#footer{
+	width: 100%;
+	background-color: rgb(244,244,244);
+	padding: 70px;
+	box-sizing: border-box; 
+	text-align: center;
+}
+
+.footer-link{
+	color: rgb(84,84,84);
+	border: 2px solid rgb(84,84,84);
+	border-radius: 50%;
+	padding: 16px;
+	width: 36px;
+	margin-right: 16px;
+}
+
+@media (max-width: 720px){
+	#landing-section-text{
+		padding-top: 40px;
+	}
+
+	#top-menu-list{
+		text-align: right;
+	}
+}
